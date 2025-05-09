@@ -4,7 +4,7 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  const name = "Niroj";
   return (
     <>
       <div>
@@ -13,7 +13,7 @@ function App() {
         </a>
       </div>
       <div>
-        <p>This is my first react project</p>
+        <p>This is my first react project by{name}</p>
       </div>
     </>
   )
